@@ -1,0 +1,29 @@
+* {
+    color: white;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    padding: 2%;
+    background-image: url('./assets/background.jpg');
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+}
+
+.custom-center {
+    text-align: center;
+    padding-top: 5%;
+}
+
+/* Responsividade para telas menores */
+@media only screen and (max-width: 768px) {
+    main {
+        padding: 5%;
+        background-size: cover;
+        background-position: center;
+    }
+}
