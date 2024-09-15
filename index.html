@@ -16,30 +16,30 @@
 </head>
 <body>
     <main>
-        <div class="container-fluid">
+        <div class="container-xl">
             <h1 class="text-center"><span class="badge bg-warning">Overwatch Randomizer</span></h1>
             <p class="text-center">Torne sua gameplay mais divertida com esse Randomizer!</p><br>
-        </div>
 
-        <img id="personagem" src="./assets/heroes/UnknownIcon.png" class="mx-auto d-block"><br><br>
+            <img id="personagem" src="./assets/heroes/UnknownIcon.png" class="mx-auto d-block"><br><br>
         
-        <div class="row">
-            <div class="col"></div>
-            <div class="col">
-                <select id="classe" class="form-select form-select-lg">
-                    <option value="tk">Tanque</option>
-                    <option value="dm">Dano</option>
-                    <option value="sp">Suporte</option>
-                </select>
-            </div>
-            <div class="col"> 
-                <div class="btn-group btn-block btn-group-lg">
-                    <button type="button" class="btn btn-warning btn-lg" onclick="ran()"><i class="fa-solid fa-dice fa-lg" style="color: #000000;"></i>&nbsp;&nbsp;&nbsp;Herói Aleatório</button>
-                    <a id="info" href="https://overwatch.blizzard.com/pt-br/heroes/" type="button" class="btn btn-light btn-lg">&nbsp;<i class="fa-solid fa-info fa-lg" style="color: #000000;"></i>&nbsp;</a>
+            <div class="row">
+                <div class="col-lg"></div>
+                <div class="col-lg">
+                    <select id="classe" class="form-select form-select-lg">
+                        <option value="tk">Tanque</option>
+                        <option value="dm">Dano</option>
+                        <option value="sp">Suporte</option>
+                    </select>
                 </div>
+                <div class="col-lg"> 
+                    <div class="btn-group btn-block btn-group-lg">
+                        <button type="button" class="btn btn-warning btn-lg" onclick="ran()"><i class="fa-solid fa-dice fa-lg" style="color: #000000;"></i>&nbsp;Herói Aleatório</button>
+                        <a id="info" href="https://overwatch.blizzard.com/pt-br/heroes/" type="button" class="btn btn-light btn-lg">&nbsp;<i class="fa-solid fa-info fa-lg" style="color: #000000;"></i>&nbsp;</a>
+                    </div>
+                </div>
+                <div class="col-lg"></div>
+                <p class="custom-center"><b>&copy; William Santos, 2024 - Todos os direitos reservados</b></p>
             </div>
-            <div class="col"></div>
-            <p class="custom-center"><b>&copy; William Santos, 2024 - Todos os direitos reservados</b></p>
         </div>
     </main>
 </body>

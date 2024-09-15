@@ -6,7 +6,7 @@
 main {
     width: 100%;
     min-height: 100vh;
-    padding: 2%;
+    padding: 5%;
     background-image: url('./assets/background.jpg');
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: multiply;
